@@ -9,7 +9,7 @@ export const emailBody = `
 
   <ul>
     <li>🔄 <strong>Example 1</strong> – This is example one.</li>
-    <li>💾 <strong>Example 2</strong> – This is example 2.</li>    
+    <li>💾 <strong>Example 2</strong> – This is example two.</li>    
   </ul>
 
   <p><strong>Thank you for your time!</strong></p>
@@ -17,6 +17,5 @@ export const emailBody = `
   <p>Best Regards,</p>
 
   <p>\${process.env.FROM_NAME}</p>
-  <p>\${process.env.FROM_EMAIL}</p>  
   <p><a href="mailto:\${process.env.FROM_EMAIL}">\${process.env.FROM_EMAIL}</a></p>
 `;
